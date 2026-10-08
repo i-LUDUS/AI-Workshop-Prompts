@@ -50,3 +50,7 @@ Dit is een praktisch werksjabloon, geen officieel VIVES-documenttemplate. Gebrui
 ## Een OneNote-pakket exporteren
 
 Voor een zelfstandige distributiekopie kan de beheerder het volledig gesynchroniseerde notitieblok in OneNote voor Windows exporteren via **Bestand → Exporteren → Notitieblok → OneNote-pakket (*.onepkg)**. Een eventuele toekomstige pakketexport kan in deze map worden toegevoegd. De online deellink is geen pakketexport.
+
+## Zelf een nieuw sjabloon laten maken
+
+Gebruik de [masterprompt om VIVES-richtlijnen naar OneNote om te zetten](../../prompts/07-praktijkoefeningen/vives-richtlijnen-naar-onenote.md). Voeg het oorspronkelijke pdf-document toe en kies een unieke notitiebloknaam. Een beschikbare OneNote-koppeling is nodig voor de daadwerkelijke creatie.
