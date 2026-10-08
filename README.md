@@ -49,6 +49,10 @@ Dezelfde prompt kan bij verschillende AI-modellen of op verschillende momenten a
 
 Gebruik het [prompt-template](templates/prompt-template.md) om een eigen, gestructureerde prompt op te stellen. De mappen bevatten ook korte introducties voor de verschillende workshoponderwerpen.
 
+## AI-usecase schrijven
+
+Gebruik het [OneNote-invulsjabloon voor een AI-usecase](templates/ai-use-case/) met 14 secties en 45 invulpagina’s. De gebruiksaanwijzing bevat de online deellink en instructies om een eigen werkversie te maken. Toegang tot OneNote volgt de SharePoint-instellingen.
+
 ## Gebruik en hergebruik
 
 Deze repository is publiek leesbaar. Dat betekent niet automatisch dat alle inhoud zonder voorwaarden mag worden heruitgegeven of commercieel verspreid. Totdat een expliciete licentie is toegevoegd, blijven de gebruikelijke auteursrechtelijke regels gelden. Deelnemers kunnen de voorbeelden raadplegen en binnen de workshop gebruiken; voor bredere verspreiding is een passende licentie of toestemming nodig.
