@@ -6,10 +6,10 @@
 | --- | --- |
 | Naam | RAG / brongebaseerd |
 | Categorie | 02 – Prompt engineering |
-| Versie | 1.1 |
+| Versie | 1.2 |
 | Status | workshopklaar |
-| Prompttaal | nl |
-| Uitvoertaal | nl |
+| Prompttaal | nl, en |
+| Uitvoertaal | nl, en |
 | AI-platform | Platformonafhankelijk |
 
 ## Doel
@@ -27,12 +27,20 @@ Gebruik deze techniek om gerichter te sturen op de kwaliteit, bruikbaarheid en c
 | `{{vraag}}` | Ja | Vul vraag in met relevante, fictieve gegevens | Wat is het beleid? |
 | `{{documenten}}` | Ja | Vul documenten in met relevante, fictieve gegevens | Beleidsdocument A |
 
-## Prompt
+## Prompt (Nederlands)
 
 Kopieer onderstaande prompt en vervang eventuele placeholders.
 
 ```text
 Beantwoord de vraag '{{vraag}}' uitsluitend op basis van de volgende documenten: {{documenten}}. Vermeld per belangrijke bewering de documentnaam en vindplaats. Als de informatie ontbreekt, antwoord dan 'Niet gevonden in de aangeleverde documenten'. Verzin geen bronnen.
+```
+
+## Prompt (English)
+
+Copy the prompt below and replace placeholders with the same input values as in the Dutch version.
+
+```text
+Answer the question '{{vraag}}' using only the following documents: {{documenten}}. For each important claim, cite the document name and the relevant location within that document. If the information is missing, respond 'Not found in the supplied documents'. Do not invent sources.
 ```
 
 ## Verwachte uitvoer
@@ -58,3 +66,4 @@ Een gestructureerd en relevant antwoord dat de opgegeven instructies volgt. Cont
 | --- | --- | --- |
 | 1.0 | 2026-10-09 | Eerste workshopvoorbeeld |
 | 1.1 | 2026-10-09 | Conform template gestructureerd en didactisch aangevuld; prompt ongewijzigd |
+| 1.2 | 2026-10-09 | Engelse prompt toegevoegd; Nederlandse prompt behouden |
