@@ -6,10 +6,10 @@
 | --- | --- |
 | Naam | Outputformaat |
 | Categorie | 02 – Prompt engineering |
-| Versie | 1.1 |
+| Versie | 1.2 |
 | Status | workshopklaar |
-| Prompttaal | nl |
-| Uitvoertaal | nl |
+| Prompttaal | nl, en |
+| Uitvoertaal | nl, en |
 | AI-platform | Platformonafhankelijk |
 
 ## Doel
@@ -26,12 +26,20 @@ Gebruik deze techniek wanneer je een vast uitvoerformaat afdwingen. Het resultaa
 | --- | --- | --- | --- |
 | `{{sector}}` | Ja | Invoer voor sector | Verzekeringen |
 
-## Prompt
+## Prompt (Nederlands)
 
 Kopieer de tekst in dit codeblok en vervang eventuele placeholders.
 
 ```text
 Geef vijf AI-use-cases voor {{sector}} in een Markdown-tabel met de kolommen: use-case, probleem, AI-technologie, waarde, complexiteit en risico.
+```
+
+## Prompt (English)
+
+Copy the prompt below and replace placeholders with the same input values as in the Dutch version.
+
+```text
+Provide five AI use cases for {{sector}} in a Markdown table with the columns: use-case, problem, AI technology, value, complexity and risk.
 ```
 
 ## Verwachte uitvoer
@@ -56,3 +64,4 @@ Een antwoord dat de instructie volgt en de gekozen techniek herkenbaar toepast. 
 | --- | --- | --- |
 | 1.0 | 2026-10-09 | Eerste workshopvoorbeeld |
 | 1.1 | 2026-10-09 | Gestandaardiseerd volgens officiële prompt-template; didactische rubrieken toegevoegd; oorspronkelijke prompt behouden |
+| 1.2 | 2026-10-09 | Engelse prompt toegevoegd; Nederlandse prompt behouden |
