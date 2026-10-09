@@ -6,10 +6,10 @@
 | --- | --- |
 | Naam | One-shot |
 | Categorie | 02 – Prompt engineering |
-| Versie | 1.1 |
+| Versie | 1.2 |
 | Status | workshopklaar |
-| Prompttaal | nl |
-| Uitvoertaal | nl |
+| Prompttaal | nl, en |
+| Uitvoertaal | nl, en (volgens promptversie) |
 | AI-platform | Platformonafhankelijk |
 
 ## Doel
@@ -26,12 +26,20 @@ Gebruik deze techniek wanneer je een voorbeeld als referentie gebruiken. Het res
 | --- | --- | --- | --- |
 | Geen | Nee | Deze voorbeeldprompt kan zonder extra parameters worden uitgevoerd. | — |
 
-## Prompt
+## Prompt (Nederlands)
 
 Kopieer de tekst in dit codeblok en vervang eventuele placeholders.
 
 ```text
 Classificeer sentiment. Voorbeeld: 'Prima service' = positief. Classificeer: 'De levering was te laat'.
+```
+
+## Prompt (English)
+
+Copy the text below and replace any placeholders with the same input values used in the Dutch version.
+
+```text
+Classify sentiment. Example: 'Excellent service' = positive. Classify: 'The delivery was late'.
 ```
 
 ## Verwachte uitvoer
@@ -56,3 +64,4 @@ Een antwoord dat de instructie volgt en de gekozen techniek herkenbaar toepast. 
 | --- | --- | --- |
 | 1.0 | 2026-10-09 | Eerste workshopvoorbeeld |
 | 1.1 | 2026-10-09 | Gestandaardiseerd volgens officiële prompt-template; didactische rubrieken toegevoegd; oorspronkelijke prompt behouden |
+| 1.2 | 2026-10-09 | Engelse promptvertaling toegevoegd; Nederlandse prompt en placeholders behouden |
