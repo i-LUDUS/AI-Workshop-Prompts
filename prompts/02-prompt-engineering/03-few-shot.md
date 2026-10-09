@@ -6,10 +6,10 @@
 | --- | --- |
 | Naam | Few-shot |
 | Categorie | 02 – Prompt engineering |
-| Versie | 1.1 |
+| Versie | 1.2 |
 | Status | workshopklaar |
-| Prompttaal | nl |
-| Uitvoertaal | nl |
+| Prompttaal | nl, en |
+| Uitvoertaal | nl, en (volgens promptversie) |
 | AI-platform | Platformonafhankelijk |
 
 ## Doel
@@ -26,12 +26,20 @@ Gebruik deze techniek wanneer je meerdere voorbeelden als patroon gebruiken. Het
 | --- | --- | --- | --- |
 | Geen | Nee | Deze voorbeeldprompt kan zonder extra parameters worden uitgevoerd. | — |
 
-## Prompt
+## Prompt (Nederlands)
 
 Kopieer de tekst in dit codeblok en vervang eventuele placeholders.
 
 ```text
 Classificeer IT-meldingen. 'Kan niet inloggen' = toegang. 'Factuur klopt niet' = facturatie. 'App crasht' = technisch. Classificeer: 'Wachtwoord wordt niet aanvaard'.
+```
+
+## Prompt (English)
+
+Copy the text below and replace any placeholders with the same input values used in the Dutch version.
+
+```text
+Classify IT tickets. 'Cannot log in' = access. 'Invoice is incorrect' = billing. 'App crashes' = technical. Classify: 'Password is not accepted'.
 ```
 
 ## Verwachte uitvoer
@@ -56,3 +64,4 @@ Een antwoord dat de instructie volgt en de gekozen techniek herkenbaar toepast. 
 | --- | --- | --- |
 | 1.0 | 2026-10-09 | Eerste workshopvoorbeeld |
 | 1.1 | 2026-10-09 | Gestandaardiseerd volgens officiële prompt-template; didactische rubrieken toegevoegd; oorspronkelijke prompt behouden |
+| 1.2 | 2026-10-09 | Engelse promptvertaling toegevoegd; Nederlandse prompt en placeholders behouden |
