@@ -6,10 +6,10 @@
 | --- | --- |
 | Naam | Decompositie |
 | Categorie | 02 – Prompt engineering |
-| Versie | 1.1 |
+| Versie | 1.2 |
 | Status | workshopklaar |
-| Prompttaal | nl |
-| Uitvoertaal | nl |
+| Prompttaal | nl, en |
+| Uitvoertaal | nl, en |
 | AI-platform | Platformonafhankelijk |
 
 ## Doel
@@ -26,12 +26,20 @@ Gebruik deze techniek wanneer je een complex probleem in deelopdrachten splitsen
 | --- | --- | --- | --- |
 | `{{proces}}` | Ja | Invoer voor proces | Afhandeling van inkomende e-mails |
 
-## Prompt
+## Prompt (Nederlands)
 
 Kopieer de tekst in dit codeblok en vervang eventuele placeholders.
 
 ```text
 Onderzoek dit proces: {{proces}}. Fase 1: beschrijf de huidige werking. Fase 2: identificeer knelpunten. Fase 3: stel AI-oplossingen voor. Geef daarna een prioriteitenlijst met motivatie.
+```
+
+## Prompt (English)
+
+Copy the prompt below and replace placeholders with the same input values as in the Dutch version.
+
+```text
+Examine this process: {{proces}}. Phase 1: describe how it currently works. Phase 2: identify bottlenecks. Phase 3: propose AI solutions. Then provide a prioritized list with reasons.
 ```
 
 ## Verwachte uitvoer
@@ -56,3 +64,4 @@ Een antwoord dat de instructie volgt en de gekozen techniek herkenbaar toepast. 
 | --- | --- | --- |
 | 1.0 | 2026-10-09 | Eerste workshopvoorbeeld |
 | 1.1 | 2026-10-09 | Gestandaardiseerd volgens officiële prompt-template; didactische rubrieken toegevoegd; oorspronkelijke prompt behouden |
+| 1.2 | 2026-10-09 | Engelse prompt toegevoegd; Nederlandse prompt behouden |
