@@ -6,10 +6,10 @@
 | --- | --- |
 | Naam | Stapsgewijze prompt |
 | Categorie | 02 – Prompt engineering |
-| Versie | 1.1 |
+| Versie | 1.2 |
 | Status | workshopklaar |
-| Prompttaal | nl |
-| Uitvoertaal | nl |
+| Prompttaal | nl, en |
+| Uitvoertaal | nl, en |
 | AI-platform | Platformonafhankelijk |
 
 ## Doel
@@ -26,12 +26,20 @@ Gebruik deze techniek wanneer je een opdracht in opeenvolgende stappen opdelen. 
 | --- | --- | --- | --- |
 | `{{proces}}` | Ja | Invoer voor proces | Afhandeling van inkomende e-mails |
 
-## Prompt
+## Prompt (Nederlands)
 
 Kopieer de tekst in dit codeblok en vervang eventuele placeholders.
 
 ```text
 Beoordeel het proces {{proces}} op automatiseringspotentieel. Geef achtereenvolgens criteria, beoordeling, risico's en conclusie, telkens met een korte toelichting.
+```
+
+## Prompt (English)
+
+Copy the prompt below and replace placeholders with the same input values as in the Dutch version.
+
+```text
+Assess the automation potential of the process {{proces}}. Present, in this order, the criteria, assessment, risks and conclusion, each with a brief explanation.
 ```
 
 ## Verwachte uitvoer
@@ -56,3 +64,4 @@ Een antwoord dat de instructie volgt en de gekozen techniek herkenbaar toepast. 
 | --- | --- | --- |
 | 1.0 | 2026-10-09 | Eerste workshopvoorbeeld |
 | 1.1 | 2026-10-09 | Gestandaardiseerd volgens officiële prompt-template; didactische rubrieken toegevoegd; oorspronkelijke prompt behouden |
+| 1.2 | 2026-10-09 | Engelse prompt toegevoegd; Nederlandse prompt behouden |
