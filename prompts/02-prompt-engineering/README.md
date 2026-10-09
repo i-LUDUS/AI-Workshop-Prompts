@@ -1,14 +1,16 @@
 # Prompt engineering
 
-Deze categorie bevat **16 Nederlandstalige voorbeeldprompts** voor de AI-workshops van i-LUDUS. Iedere techniek heeft een eigen Markdown-bestand (versie **1.1**) dat is uitgewerkt volgens het [standaard prompt-template](../../templates/prompt-template.md), met metadata, doel, gebruiksmoment, invoerparameters, een kopieerbare prompt, verwachte uitvoer, oefening, aandachtspunten en wijzigingshistoriek.
+Deze categorie bevat **16 tweetalige voorbeeldprompts (Nederlands en Engels)** voor de AI-workshops van i-LUDUS. Iedere techniek heeft een eigen Markdown-bestand (versie **1.2**) dat is uitgewerkt volgens het [standaard prompt-template](../../templates/prompt-template.md), met metadata, doel, gebruiksmoment, invoerparameters, een kopieerbare prompt, verwachte uitvoer, oefening, aandachtspunten en wijzigingshistoriek.
 
 ## Snel starten
 
 1. Kies hieronder een techniek en open het bijbehorende Markdown-bestand.
 2. Lees het doel en de eventuele invoerparameters.
-3. Kopieer de inhoud van het codeblok onder **Prompt** en vervang placeholders zoals `{{usecase}}` door fictieve of toegestane gegevens.
+3. Kies **Prompt (Nederlands)** of **Prompt (English)** en kopieer het codeblok. Vervang placeholders zoals `{{usecase}}` door fictieve of toegestane gegevens.
 4. Voer de prompt uit in een geschikte AI-toepassing en vergelijk de resultaten via de voorgestelde oefening.
-5. Controleer de uitkomst op juistheid, volledigheid en bronbetrouwbaarheid.
+5. Controleer de uitkomst op juistheid, volledigheid en bronbetrouwbaarheid. Vergelijk modellen bij voorkeur met dezelfde prompttaal, en onderzoek afzonderlijk het effect van Nederlands versus Engels.
+
+Alle 16 promptbestanden bevatten beide taalversies met dezelfde placeholders en zo veel mogelijk gelijkwaardige instructies. De verwachte uitvoer en oefeningen zijn in het Nederlands gedocumenteerd. De tweetalige prompts zijn bruikbaar voor lokale modellen via Ollama; de tool-use-oefening vereist wel geschikte tools en een beschikbaar testbestand.
 
 ## Overzicht van de 16 technieken
 
