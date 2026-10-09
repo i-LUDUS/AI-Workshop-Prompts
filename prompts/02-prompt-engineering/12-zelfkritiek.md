@@ -6,10 +6,10 @@
 | --- | --- |
 | Naam | Zelfkritiek |
 | Categorie | 02 – Prompt engineering |
-| Versie | 1.1 |
+| Versie | 1.2 |
 | Status | workshopklaar |
-| Prompttaal | nl |
-| Uitvoertaal | nl |
+| Prompttaal | nl, en |
+| Uitvoertaal | nl, en |
 | AI-platform | Platformonafhankelijk |
 
 ## Doel
@@ -26,12 +26,20 @@ Gebruik deze techniek om gerichter te sturen op de kwaliteit, bruikbaarheid en c
 | --- | --- | --- | --- |
 | `{{probleem}}` | Ja | Vul probleem in met relevante, fictieve gegevens | Fictief voorbeeld |
 
-## Prompt
+## Prompt (Nederlands)
 
 Kopieer onderstaande prompt en vervang eventuele placeholders.
 
 ```text
 Stel een oplossing voor dit probleem voor: {{probleem}}. Beoordeel je voorstel vervolgens op haalbaarheid, kosten, privacy en impact. Benoem zwakke punten en presenteer een verbeterde versie.
+```
+
+## Prompt (English)
+
+Copy the prompt below and replace placeholders with the same input values as in the Dutch version.
+
+```text
+Propose a solution to this problem: {{probleem}}. Then assess your proposal in terms of feasibility, cost, privacy and impact. Identify weaknesses and present an improved version.
 ```
 
 ## Verwachte uitvoer
@@ -56,3 +64,4 @@ Een gestructureerd en relevant antwoord dat de opgegeven instructies volgt. Cont
 | --- | --- | --- |
 | 1.0 | 2026-10-09 | Eerste workshopvoorbeeld |
 | 1.1 | 2026-10-09 | Conform template gestructureerd en didactisch aangevuld; prompt ongewijzigd |
+| 1.2 | 2026-10-09 | Engelse prompt toegevoegd; Nederlandse prompt behouden |
