@@ -64,4 +64,5 @@ Een antwoord dat de instructie volgt en de gekozen techniek herkenbaar toepast. 
 | --- | --- | --- |
 | 1.0 | 2026-10-09 | Eerste workshopvoorbeeld |
 | 1.1 | 2026-10-09 | Gestandaardiseerd volgens officiële prompt-template; didactische rubrieken toegevoegd; oorspronkelijke prompt behouden |
+| 1.2 | 2026-10-09 | Engelse prompt toegevoegd; Nederlandse prompt behouden |
 | 1.2 | 2026-10-09 | Engelse promptvertaling toegevoegd; Nederlandse prompt en placeholders behouden |
