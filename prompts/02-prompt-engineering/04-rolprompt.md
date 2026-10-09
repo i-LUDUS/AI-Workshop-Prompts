@@ -6,10 +6,10 @@
 | --- | --- |
 | Naam | Rolprompt |
 | Categorie | 02 – Prompt engineering |
-| Versie | 1.1 |
+| Versie | 1.2 |
 | Status | workshopklaar |
-| Prompttaal | nl |
-| Uitvoertaal | nl |
+| Prompttaal | nl, en |
+| Uitvoertaal | nl, en (volgens promptversie) |
 | AI-platform | Platformonafhankelijk |
 
 ## Doel
@@ -26,12 +26,20 @@ Gebruik deze techniek wanneer je een expertise-rol meegeven. Het resultaat blijf
 | --- | --- | --- | --- |
 | `{{procesbeschrijving}}` | Ja | Invoer voor procesbeschrijving | Afhandeling van inkomende e-mails |
 
-## Prompt
+## Prompt (Nederlands)
 
 Kopieer de tekst in dit codeblok en vervang eventuele placeholders.
 
 ```text
 Je bent een ervaren Lean Six Sigma Black Belt. Analyseer het volgende proces en benoem de belangrijkste vormen van verspilling: {{procesbeschrijving}}.
+```
+
+## Prompt (English)
+
+Copy the text below and replace any placeholders with the same input values used in the Dutch version.
+
+```text
+You are an experienced Lean Six Sigma Black Belt. Analyze the following process and identify the main forms of waste: {{procesbeschrijving}}.
 ```
 
 ## Verwachte uitvoer
@@ -56,3 +64,4 @@ Een antwoord dat de instructie volgt en de gekozen techniek herkenbaar toepast. 
 | --- | --- | --- |
 | 1.0 | 2026-10-09 | Eerste workshopvoorbeeld |
 | 1.1 | 2026-10-09 | Gestandaardiseerd volgens officiële prompt-template; didactische rubrieken toegevoegd; oorspronkelijke prompt behouden |
+| 1.2 | 2026-10-09 | Engelse promptvertaling toegevoegd; Nederlandse prompt en placeholders behouden |
