@@ -6,10 +6,10 @@
 | --- | --- |
 | Naam | Tool use |
 | Categorie | 02 – Prompt engineering |
-| Versie | 1.1 |
+| Versie | 1.2 |
 | Status | workshopklaar |
-| Prompttaal | nl |
-| Uitvoertaal | nl |
+| Prompttaal | nl, en |
+| Uitvoertaal | nl, en |
 | AI-platform | Platformonafhankelijk (bestands- en analysetoegang vereist) |
 
 ## Doel
@@ -26,12 +26,20 @@ Gebruik deze techniek om gerichter te sturen op de kwaliteit, bruikbaarheid en c
 | --- | --- | --- | --- |
 | Excel-bijlage | Ja | Upload een Excel-bestand met dossiergegevens | fictieve-dossiers.xlsx |
 
-## Prompt
+## Prompt (Nederlands)
 
 Kopieer onderstaande prompt en vervang eventuele placeholders.
 
 ```text
 Analyseer het bijgevoegde Excel-bestand met dossiergegevens. Bereken met een beschikbare analysetool de gemiddelde doorlooptijd per maand en maak een lijngrafiek. Vermeld ontbrekende waarden en gebruikte aannames. Als je geen toegang hebt tot het bestand of de tool, meld dat expliciet.
+```
+
+## Prompt (English)
+
+Copy the prompt below and replace placeholders with the same input values as in the Dutch version.
+
+```text
+Analyze the attached Excel file containing case records. Use an available analysis tool to calculate the average processing time per month and create a line chart. Identify missing values and assumptions used. If you cannot access the file or tool, state this explicitly.
 ```
 
 ## Verwachte uitvoer
@@ -57,3 +65,4 @@ Een gestructureerd en relevant antwoord dat de opgegeven instructies volgt. Cont
 | --- | --- | --- |
 | 1.0 | 2026-10-09 | Eerste workshopvoorbeeld |
 | 1.1 | 2026-10-09 | Conform template gestructureerd en didactisch aangevuld; prompt ongewijzigd |
+| 1.2 | 2026-10-09 | Engelse prompt toegevoegd; Nederlandse prompt behouden |
